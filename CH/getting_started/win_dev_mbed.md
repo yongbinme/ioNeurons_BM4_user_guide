@@ -10,8 +10,8 @@
 选择屏幕右侧的`Add to your Mbed Compiler`（图6）。<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/6.png)</p><p align="center">图6</p>
 4. 回到在线编译器，确定`NUCLEO-F446RE`已选择（图7)，<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/7.png)</p><p align="center">图7</p>点击左上角`New`建立一个空白项目（图8)，<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/8.png)</p><p align="center">图8</p>依次选择弹出对话框中的选项如图9所示。<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/9.png)</p><p align="center">图9</p>
 5. 导入library。右键选择项目名称`blinky_LED -> Import Library -> From Import Wizard`（图10），<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/10.png)</p><p align="center">图10</p>在搜索栏中输入`mbed`，选择`mbed`，然后`Import!`(图11，12）。<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/11.png)</p><p align="center">图11</p><p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/12.png)</p><p align="center">图12</p>
-6. 新建一个`.cpp`文件。右键选择`blinky_LED -> New file`，输入文件名`blinky_LED.cpp`确定（图13）。<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/13.png)</p><p align="center">图13</p>
-7. 输入如下所示代码，使LED灯产生亮灭效果。然后点击`Compile`生成`blinky_LED_NUCLEO_F446RE.bin`文件（图14）。<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/14.png)</p><p align="center">图14</p>
+6. 新建一个`.cpp`文件。右键选择`blinky_LED -> New file`，输入文件名`blinky_LED.cpp`确定（图13,14）。<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/13.png)</p><p align="center">图13</p><p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/14.png)</p><p align="center">图14</p>
+7. 输入如下所示代码，使LED灯产生亮灭效果。然后点击`Compile`生成`blinky_LED_NUCLEO_F446RE.bin`文件（图15）。<p align="center">![](https://github.com/yongbinme/ioNeurons_BM4_user_guide/blob/master/images/15.png)</p><p align="center">图15</p>
 
 ```c
 #include "mbed.h"
