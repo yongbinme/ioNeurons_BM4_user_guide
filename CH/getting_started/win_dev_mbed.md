@@ -10,7 +10,7 @@
 6. 新建一个`.cpp`文件。右键选择`blinky_LED -> New file`，输入文件名`blinky_LED.cpp`确定（图13）。
 7. 输入如下所示代码，使LED灯产生亮灭效果。然后点击`Compile`生成`blinky_LED_NUCLEO_F446RE.bin`文件（图14）。
 
-```
+```c
 #include "mbed.h"
 
 DigitalOut myled(PC_15);//LED is attached to pin 'PC_15'
