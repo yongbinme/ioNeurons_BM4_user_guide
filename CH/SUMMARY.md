@@ -17,5 +17,5 @@
       * [Atollic TrueStudio](getting_started/win_dev_atollic_true_studio.md)
 
 * [应用及实例](examples/README.md)
-* [贡献及开发者](contribute/README.md)
-  * [GIT例程](contribute/git_examples.md)
+* [贡献及开发者](contributing/README.md)
+  * [GIT例程](contributing/git_examples.md)
